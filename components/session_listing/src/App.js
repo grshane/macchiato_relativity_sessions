@@ -17,9 +17,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+        <header className="block__header">
+          <h2 className="App-title">Proposed Sessions</h2>
         </header>
         <div className="list">
           <ul className="list-items">

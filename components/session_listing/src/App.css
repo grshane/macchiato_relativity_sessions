@@ -16,7 +16,13 @@
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-family: 'magallanes';
+  font-size: 1.25em;
+  line-height: 1.4em;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
 
 .App-intro {
@@ -42,7 +48,7 @@
   /*display: block; !* This will put the pseudo element on its own line. *!*/
   margin: 0 auto; /* This will center the border. */
   width: 100px; /* Change this to whatever width you want. */
-  padding-top: 20px; /* This creates some space between the element and the border. */
+  /*padding-top: 20px; !* This creates some space between the element and the border. *!*/
   border-bottom:1px solid #B4BCC2;
 }
 
@@ -56,6 +62,7 @@
   grid-template-columns: 20% 40% 40%;
   grid-template-rows: 2% 49% 49%;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .list-item icon {
