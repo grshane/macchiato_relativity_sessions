@@ -83,3 +83,21 @@
   grid-row: 2  / span 2;
   text-align: left;
 }
+
+.filters {
+  list-style: none;
+  display: flex;
+}
+
+.toggled {
+  filter: contrast(5);
+}
+
+.pretty {
+  width: 2.25em;
+  height: 2.25em;
+}
+
+.pretty.p-svg .state .svg {
+  font-size: 2.25em;
+}
